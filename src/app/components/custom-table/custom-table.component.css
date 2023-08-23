@@ -1,0 +1,44 @@
+.app {
+  color: #f88604;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+  width: 100%; 
+}
+
+.table {
+  width: 50%;
+  margin-left: 350px;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.table-root {
+  margin-top: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: rgb(71, 71, 69);
+  
+}
+
+.table-cell-head {
+  background-color: rgb(71, 71, 69);
+  color: #ffffff; 
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-cell-root {
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(255, 255, 255);
+}
+
+.delete-button {
+  color: #f88604;
+  border-color: #f88604;
+}

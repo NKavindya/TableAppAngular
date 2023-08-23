@@ -1,0 +1,38 @@
+<div class="form-container">
+  <h3>FILL THIS FORM</h3>
+  <form (ngSubmit)="handleSubmit()" #form="ngForm">
+    <div class="form-group">
+      <label for="id" class="form-label">ID:</label>
+      <input
+        type="text"
+        id="id"
+        name="id"
+        class="form-input"
+        [(ngModel)]="formData.id"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="title" class="form-label">Title:</label>
+      <input
+        type="text"
+        id="title"
+        name="title"
+        class="form-input"
+        [(ngModel)]="formData.title"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="body" class="form-label">Body:</label>
+      <textarea
+        id="body"
+        name="body"
+        class="form-input"
+        [(ngModel)]="formData.body"
+        required
+      ></textarea>
+    </div>
+    <button type="submit" class="form-submit">SUBMIT</button>
+  </form>
+</div>
